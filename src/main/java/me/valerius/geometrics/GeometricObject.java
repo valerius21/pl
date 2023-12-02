@@ -1,4 +1,4 @@
-package org.example;
+package me.valerius.geometrics;
 
 import de.hans.wif.lectures.prog1.support.GraphicsPanel;
 
@@ -16,10 +16,9 @@ public class GeometricObject extends GraphicsPanel.GraphicObject {
 
     @Override
     public String toString() {
-        return new StringBuilder()
-                .append("Geometric::toString() -> ")
-                .append("x = ").append(x)
-                .append(", y = ").append(y).toString();
+        return "Geometric::toString() -> " +
+                "x = " + x +
+                ", y = " + y;
     }
 
     public double getArea() {

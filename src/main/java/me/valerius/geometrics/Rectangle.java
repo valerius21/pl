@@ -1,4 +1,4 @@
-package org.example;
+package me.valerius.geometrics;
 
 import java.awt.*;
 
@@ -24,10 +24,9 @@ public class Rectangle extends GeometricObject {
 
     @Override
     public String toString() {
-        return new StringBuilder()
-                .append("Rectangle::toString() -> ")
-                .append("x = ").append(x)
-                .append(", y = ").append(y).toString();
+        return "Rectangle::toString() -> " +
+                "x = " + x +
+                ", y = " + y;
     }
 
     @Override

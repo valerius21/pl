@@ -1,4 +1,4 @@
-package org.example;
+package me.valerius.geometrics;
 
 import java.awt.*;
 
@@ -30,12 +30,10 @@ public class Circle extends GeometricObject {
 
     @Override
     public String toString() {
-        return new StringBuilder()
-                .append("Circle::toString() -> ")
-                .append("x = ").append(x)
-                .append(", y = ").append(y)
-                .append(", r = ").append(radius)
-                .toString();
+        return "Circle::toString() -> " +
+                "x = " + x +
+                ", y = " + y +
+                ", r = " + radius;
     }
 
     @Override
