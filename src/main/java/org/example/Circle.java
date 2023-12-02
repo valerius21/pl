@@ -40,6 +40,6 @@ public class Circle extends GeometricObject {
 
     @Override
     public void draw(Graphics g) {
-        g.drawOval(x, y, radius, radius);
+        g.fillOval(x, y, radius, radius);
     }
 }
